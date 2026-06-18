@@ -1,0 +1,88 @@
+[
+  {
+    "title": "Ada Derana",
+    "url": "https://www.adaderana.lk",
+    "language": "English",
+    "article_selector": ".news-story, .other-story",
+    "content_selector": ".news-content",
+    "js_required": false
+  },
+  {
+    "title": "Daily Mirror",
+    "url": "https://www.dailymirror.lk/breaking_news/1",
+    "language": "English",
+    "article_selector": ".col-md-8 h2 a, .title a, .article-title a",
+    "content_selector": ".article-body, .main-content, .inner-content",
+    "js_required": false
+  },
+  {
+    "title": "Lankadeepa",
+    "url": "https://www.lankadeepa.lk",
+    "language": "Sinhala",
+    "article_selector": ".news-story, .jeg_post",
+    "content_selector": ".inner-content, .entry-content",
+    "js_required": false,
+    "spam_pattern": "Sisira-cb"
+  },
+  {
+    "title": "Divaina",
+    "url": "https://www.divaina.lk",
+    "language": "Sinhala",
+    "article_selector": ".breaking-news a, .jeg_post",
+    "content_selector": ".news-body, .entry-content",
+    "js_required": false,
+    "noise_suffix": "දිවයින\" 1981"
+  },
+  {
+    "title": "Virakesari",
+    "url": "https://www.virakesari.lk",
+    "language": "Tamil",
+    "article_selector": ".news-item a, .article-title a",
+    "content_selector": ".article-detail, .article-body",
+    "js_required": false,
+    "noise_suffix": "Copyright © 2026 Virakesari"
+  },
+  {
+    "title": "Jaffna Monitor",
+    "url": "https://jaffnamonitor.com",
+    "language": "Tamil",
+    "article_selector": ".jeg_post",
+    "content_selector": ".entry-content",
+    "js_required": false
+  },
+  {
+    "title": "Daily News Sri Lanka",
+    "url": "https://www.dailynews.lk",
+    "language": "English",
+    "article_selector": ".views-row a, .article-title a",
+    "content_selector": ".field-items, .article-body",
+    "js_required": false,
+    "noise_suffix": "Save my name, email"
+  },
+  {
+    "title": "Colombo Telegraph",
+    "url": "https://www.colombotelegraph.com",
+    "language": "English",
+    "article_selector": ".jeg_post",
+    "content_selector": ".entry-content",
+    "js_required": false
+  },
+   {
+  "title": "Athavan News",
+  "url": "https://athavannews.com",
+  "language": "Tamil",
+  "article_selector": ".jeg_post",
+  "content_selector": ".entry-content",
+  "rss_url": "https://athavannews.com/feed/",
+  "js_required": false
+},
+{
+  "title": "Daily FT",
+  "url": "https://www.ft.lk",
+  "language": "English",
+  "article_selector": "h1 a, h2 a, h3 a",
+  "content_selector": ".article-content, article p",
+  "js_required": false,
+  "use_requests": true
+}
+]
